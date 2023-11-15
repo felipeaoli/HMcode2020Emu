@@ -62,7 +62,6 @@ You can also see an example in the tutorials-folder.
 | wa            | [-2., 2.]             |
 | log10TAGN     | [7.6, 8.3]            |
 | z             | [0.0, 3.]             |
-| :---:         | :---:                 |
 | k_lin         | [1e-4, 50]            |
 | k_nonlin      | [0.01, 5]             |
 
