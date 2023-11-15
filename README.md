@@ -15,11 +15,11 @@ pip install . [--user]
 Required python packages:
 * numpy
 * scipy
+* cosmopower
 
 For tutorials:
 * matplotlib
-* emcee
-* getdist
+
 
 ## Usage
 
