@@ -50,20 +50,20 @@ Note that for neutrino calculations we assume 2 massless neutrinos and 1 massive
 You can also see an example in the tutorials-folder.
 
 ## Parameter ranges
-| parameter     | limits                |
-| :---:         | :---:                 |
-| omega_cdm     | [0.15, 0.6]           |
-| omega_baryon  | [0.03, 0.07]          |
-| hubble        | [0.5, 0.9]            |
-| As            | [0.547e-9, 5.459e-9]  |
-| ns            | [0.6, 1.2]            |
-| neutrino_mass | [0., 0.5]             |
-| w0            | [-1.5, -0.3]          |
-| wa            | [-2., 2.]             |
-| log10TAGN     | [7.6, 8.3]            |
-| z             | [0.0, 3.]             |
-| k_lin         | [1e-4, 50]            |
-| k_nonlin      | [0.01, 5]             |
+| parameter         | limits                |
+| :---:             | :---:                 |
+| omega_cdm         | [0.15, 0.6]           |
+| omega_baryon      | [0.03, 0.07]          |
+| hubble            | [0.5, 0.9]            |
+| As                | [0.547e-9, 5.459e-9]  |
+| ns                | [0.6, 1.2]            |
+| neutrino_mass     | [0., 0.5]             |
+| w0                | [-1.5, -0.3]          |
+| wa                | [-2., 2.]             |
+| log10TAGN         | [7.6, 8.3]            |
+| z                 | [0.0, 3.]             |
+| k_lin [h/Mpc]     | [1e-4, 50]            |
+| k_nonlin [h/Mpc]  | [0.01, 5]             |
 
 
 ## License
