@@ -377,8 +377,8 @@ def load_sigma8_emu(verbose=True):
     return emulator    
 
 kmin_NL = 0.01 
-kmax_NL = 5. 
-npoints_NL = 300 
+kmax_NL = 50. 
+npoints_NL = 350 
 kh_hmcode = np.logspace(np.log10(kmin_NL), np.log10(kmax_NL), npoints_NL)
 
 def load_nonlinear_emu(verbose=True):
