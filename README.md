@@ -17,6 +17,11 @@ Required python packages:
 * scipy
 * cosmopower
 
+**note**: cosmopower 0.1.3 depends on tensorflow_probability<=0.21.0 . If you use `pip install cosmopower`, you may have the error `AttributeError: module 'tensorflow.python.framework.type_spec' has no attribute '_NAME_TO_TYPE_SPEC'` . In this case, downgrade your installation through:
+```
+python -m pip install  tensorflow_probability==0.21.0
+```
+
 For tutorials:
 * matplotlib
 
