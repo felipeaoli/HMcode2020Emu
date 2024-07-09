@@ -146,7 +146,7 @@ class Matter_powerspectrum(object):
                                                     pk_lin_i,
                                                     kind='linear'
                                                     ) for pk_lin_i in pk_lin]
-                pk_lin = [pklin_interp[i](k) for i in range(zbins)]
+                pk_lin = np.array([pklin_interp[i](k) for i in range(zbins)])
         else:
             k = emulator['k']
 
@@ -218,7 +218,7 @@ class Matter_powerspectrum(object):
                                                     pk_nonlin_i,
                                                     kind='linear'
                                                     ) for pk_nonlin_i in pk_nonlin]
-                pk_nonlin = [pknonlin_interp[i](k) for i in range(zbins)]
+                pk_nonlin = np.array([pknonlin_interp[i](k) for i in range(zbins)])
         else:
             k = emulator['k']
 
@@ -282,7 +282,7 @@ class Matter_powerspectrum(object):
                                                     baryonic_boost_i,
                                                     kind='linear'
                                                     ) for baryonic_boost_i in barboost]
-                baryonic_boost = [barboost_interp[i](k) for i in range(zbins)]
+                baryonic_boost = np.array([barboost_interp[i](k) for i in range(zbins)])
         else:
             k = emulator['k']
 
